@@ -1,22 +1,22 @@
-function sum (a, b) {
-    return a + b;
+function sum(a,b){
+    return a+b;
 }
 
-let result = sum ( 3, 7);
-console.log (result);
+let resultSum = sum(3,7);
+console.log(resultSum);
 
 /*-------*/
 
-function toUpperCaseString (str) {
-    return str.toUpperCase ();
+function toUpperCaseString(str){
+    return str.toUpperCase();
 }
 
-let result = toUpperCaseString ( 'Hello Yurii' );
-console.log (result);
+let result = toUpperCaseString('Hello Yurii');
+console.log(result);
 
 /*-------*/
 
-function squareArray (numbers) {
+function squareArray(numbers){
     return numbers.map(number => number * number);
 }
 
