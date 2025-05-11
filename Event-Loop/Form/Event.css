@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800);
+
+.body {
+  line-height: 1;
+  font-family:Manrope;
+  color: #333333
+  }
+
+  .title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+  .form{
+    margin-bottom: 15px;
+  }
+
+  .username-form {
+    margin-bottom: 15px;
+   
+  }
+ 
+  .button{
+
+  }

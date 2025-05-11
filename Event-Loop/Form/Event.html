@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:regular,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Form/Event.css">  
+    <title>Форма реєстрації</title>
+</head>
+<body>
+    <script src="" defer></script>
+
+    <h1>Registration</h1>
+
+    <form id="Form">
+
+      <div class="username-form">
+        <label for="name">Name</label>
+        <input autocomplete="off" id="name" type="text" name="form[]" placeholder="Enter your name">
+        <span class="hint hint--right  hint--info" id="nameHint">Enter your full name.</span>
+        <div class="error error--info" id="nameError">The name cannot be empty.</div>
+      </div>
+    
+      <div class="useremail-form">
+        <label for="email">Email</label>
+        <input autocomplete="off" id="email" type="email"  type="text" name="form[]" placeholder="Enter your email">
+        <span class="hint hint--right  hint--info" id="emailHint">name@example.com</span>
+        <div class="error error--info" id="emailError">Enter a valid email address.</div>
+      </div>
+    
+      <div class="userpassword-form">
+        <label for="password">Password</label>
+        <input autocomplete="off" id="password" type="password" type="text" name="form[]" placeholder="Enter your password">
+        <span class="hint hint--right  hint--info" id="passwordHint">Min. 6 characters.</span>
+        <div class="error error--info" id="passwordError">The password is too short.</div>
+      </div>
+    
+      <button type="submit">Sign Up</button>
+</body>
+</html>
